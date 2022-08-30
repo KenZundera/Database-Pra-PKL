@@ -1,0 +1,136 @@
+ul li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: 0.4s;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 6px #000;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul li {
+  float: left;
+  list-style: none;
+}
+
+header ul li h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header ul li a:hover {
+  color: #00bfff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(225, 225, 225);
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin: 0 310px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  border-radius: 20px;
+  width: 51%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+select:hover {
+  box-shadow: 0px 0px 4px #000;
+}
+
+input {
+  height: 20px;
+  border-radius: 20px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 0px 0px 2px #000;
+}
+
+input:hover {
+  box-shadow: 0px 0px 4px #000;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  border-radius: 10px;
+  color: #f7f7f7;
+  border: none;
+  width: 52%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #378039;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+		* For IE 6/7 only
+		* Include this rule to trigger hasLayout and contain floats.
+		*/
+.cf {
+  *zoom: 1;
+}
